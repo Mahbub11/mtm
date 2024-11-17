@@ -158,7 +158,7 @@ export const projectItem = [
     },
     {
        id: 2,
-       title: "Realestate",
+       title: "E-commerce",
        href: "/case-studies/case-three",
        src:rBannar,
        links: [
@@ -186,7 +186,7 @@ export const projectItem = [
     },
     {
        id: 3,
-       title: "E-commerce",
+       title: "Realestate",
        href: "/case-studies/case-two",
        src: eBananr,
        links: [
