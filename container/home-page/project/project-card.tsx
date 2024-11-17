@@ -19,7 +19,7 @@ export default function ProjectCard({ item }: { item: any }) {
         <Image
           src={item.src}
           alt={`${item.title}Img`}
-          className="object-cover rounded-md h-[30rem] w-[35rem]
+          className="object-cover rounded-md h-[30rem] w-[40rem]
            group-hover:scale-[1.09] transform duration-[1s] ease-[.4,0,.2,1]"
         />
       </Link>
