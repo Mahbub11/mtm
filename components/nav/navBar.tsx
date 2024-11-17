@@ -6,6 +6,7 @@ import MobileNav from "./MobileNav";
 import MtIcon from "@/public/SVG/mt-svg";
 import Link from "next/link";
 import ButtonMailto from "../email/mail-to";
+import IconMahbubLogo from "@/public/SVG/mahbub-logo";
 
 const navItems = [
   { title: "Case Studies", link: "/case-studies" },
@@ -66,16 +67,16 @@ export default function Navbar() {
       >
         <Link href="/">
           <span className="sm:hidden">
-            <MtIcon height="3rem" width="3rem"></MtIcon>
+            <IconMahbubLogo height="3rem" width="3rem"></IconMahbubLogo>
           </span>
           <span className="hidden sm:block">
-            <MtIcon height="2rem" width="2rem"></MtIcon>
+            <IconMahbubLogo height="2rem" width="2rem"></IconMahbubLogo>
           </span>
         </Link>
 
         <div>
           <h2 className="font-montreal text-gray-700 tracking-wider uppercase">
-            Shamsun Nahar
+           Mahbub Rahim
           </h2>
         </div>
 

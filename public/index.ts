@@ -151,4 +151,5 @@ export { default as cTwo } from './construction/cTwo.png';
 export { default as crmOne } from './construction/crmOne.png';
 export { default as crmTwo } from './construction/crmSix.png';
 
-
+//pic me
+export { default as mahbubRahim } from './mahbubrahim.jpeg';

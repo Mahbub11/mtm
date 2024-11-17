@@ -25,7 +25,7 @@ export default function Footer() {
         </div>
 
         <div className=" ">
-          <h2 className="link-flash cursor-pointer">shamsunnahar6905@gmail.com</h2>
+          <h2 className="link-flash cursor-pointer">mahbubrahim@hotmail.com</h2>
         </div>
       </div>
     </footer>

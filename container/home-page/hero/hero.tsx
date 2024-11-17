@@ -9,7 +9,7 @@ import Image from "next/image";
 import TextHoverSingle from "@/animation/TextHoverSingle";
 import Link from "next/link";
 import SvgContainer from "../svg-section/svg-container";
-import { client01, client02 } from "@/public";
+import { client01, client02, mahbubRahim } from "@/public";
 import splitStringUsingRegex from "@/animation/SplitStringREGEX";
 
 const carVariants = {
@@ -17,7 +17,7 @@ const carVariants = {
   reveal: { opacity: 1 },
 };
 const infoText =
-  "Hi, I’m Shamsun Nahar, a full stack developer and UI/UX designer with a Software Engineering degree and over six years of experience. Skilled in HTML, CSS, PHP, Laravel, Python, Django, Vue.js, and AI, I bring together technical precision and creative design to build functional, user-friendly websites and applications. I’m passionate about crafting meaningful digital experiences that resonate with users. Whether you need a custom website, a dynamic app, or an engaging design, I’m here to help turn your vision into reality. Let’s create something impactful together!";
+  "I’m a full-stack web developer with over 5+ years of experience crafting custom websites and working with popular CMS platforms. Specializing in technologies like Next.js, React.js, Node.js, Django, Express, and DevOps, I create dynamic, user-centric digital experiences that deliver results. I’ve had the privilege of building 100+ websites for a wide range of businesses, from small startups to large enterprises. My approach goes beyond just coding—I'm passionate about elevating user experience and creating engaging, intuitive designs that tell a brand’s story and connect with its audience. Whether you're looking to launch a brand-new site or enhance an existing one, I’ll work closely with you to bring your vision to life, ensuring your website meets your goals and stands out in the digital space. Let’s chat about your project—I’m here to help make your website exactly how you envision it.";
 const texts: string[] = [
   "Best For E-commerce",
   "Targeted Website Redesign",
@@ -69,8 +69,8 @@ const AnimatedText: React.FC = () => {
   const totalCharacters = infoMap.length; // Get the number of characters in the infoText
 
   const durationPerCharacter = 5 / totalCharacters; // Total time (5s) divided by the number of characters
-  const staggerDuration = 0.01;  // Reduce stagger to make transitions almost simultaneous
-  
+  const staggerDuration = 0.01; // Reduce stagger to make transitions almost simultaneous
+
   const pathVariants = {
     hidden: { pathLength: 0, opacity: 0 },
     visible: { pathLength: 1, opacity: 1, transition: { duration: 2 } },
@@ -142,7 +142,7 @@ const AnimatedText: React.FC = () => {
               >
                 <Image
                   className="h-full w-full object-cover rounded-full"
-                  src={client02}
+                  src={mahbubRahim}
                   alt="Logo"
                   width={100}
                   height={100}

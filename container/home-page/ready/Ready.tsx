@@ -57,13 +57,13 @@ export default function Ready() {
           border-white hover:border-[#00d4ff] hover:text-customDark "
           >
             <button
-             onClick={() => window.location.href = 'mailto:shamsunnahar6905@gmail.com'}
+             onClick={() => window.location.href = 'mailto:mahbubrahim926@gmail.com'}
               className="xl:text-[18px] xl:leading-[28px] text-[14px] leading-[24px] uppercase font-normal font-NeueMontreal"
              
             >
               <Rounded className="py-[6px]" backgroundColor="#00B4D8">
                 <p className="z-10 px-[10px] ml-[15px] py-[6px] group-hover:text-white text-white">
-                  hello@shamsunNahar
+                  hello@mahbubrahim
                 </p>
                 
                 <div
