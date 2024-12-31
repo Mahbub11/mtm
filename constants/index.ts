@@ -247,7 +247,7 @@ export const projectItem = [
     name: "William Barnes",
     src: client01,
     review:
-      "I had the pleasure of working with Sheuli on a custom website project aimed at enhancing English proficiency using React and ChatGPT. From start to finish, the team was professional, responsive, and dedicated to bringing my vision to life. They understood my goals and offered valuable suggestions that improved the user experience. The final product exceeded expectations — the website is intuitive, functional, and the integration of AI features adds real value.",
+      "I had the pleasure of working with Mahbub on a custom website project aimed at enhancing English proficiency using React and ChatGPT. From start to finish, the team was professional, responsive, and dedicated to bringing my vision to life. They understood my goals and offered valuable suggestions that improved the user experience. The final product exceeded expectations — the website is intuitive, functional, and the integration of AI features adds real value.",
     links: [
       {
         id: 1,
@@ -264,7 +264,7 @@ export const projectItem = [
     name: "Nina Walloch",
     src: client02,
     review:
-      "Working with Sheuli  on our real estate website was an excellent experience. From the initial consultation to the final launch, they demonstrated exceptional professionalism, creativity, and technical expertise. They took the time to understand our specific needs and created a site that is both visually appealing and highly functional. The integration of advanced search features, property listings, and user-friendly navigation has made it easier for our clients to browse and find properties that meet their needs.",
+      "Working with Mahbub  on our real estate website was an excellent experience. From the initial consultation to the final launch, they demonstrated exceptional professionalism, creativity, and technical expertise. They took the time to understand our specific needs and created a site that is both visually appealing and highly functional. The integration of advanced search features, property listings, and user-friendly navigation has made it easier for our clients to browse and find properties that meet their needs.",
     links: [
       {
         id: 1,
@@ -281,7 +281,7 @@ export const projectItem = [
     name: "Tormer levy",
     src: client03,
     review:
-      "I had the pleasure of working with Sheuli on our e-commerce website, and I couldn’t be more satisfied with the results. From day one, the team was professional, attentive, and focused on understanding our unique business needs. They delivered a modern, user-friendly platform with seamless navigation, secure payment integration, and intuitive product management features. The site is not only visually stunning but also highly functional, offering our customers an easy and enjoyable shopping experience.",
+      "I had the pleasure of working with Mahbub on our e-commerce website, and I couldn’t be more satisfied with the results. From day one, the team was professional, attentive, and focused on understanding our unique business needs. They delivered a modern, user-friendly platform with seamless navigation, secure payment integration, and intuitive product management features. The site is not only visually stunning but also highly functional, offering our customers an easy and enjoyable shopping experience.",
     links: [
       {
         id: 1,
