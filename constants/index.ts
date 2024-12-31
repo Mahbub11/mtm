@@ -239,195 +239,200 @@ export const projectItem = [
 
 
  export const clientsItem = [
-    {
-       id: 1,
-       website: "Practicemania",
-       href: "prcticecompanions.com",
-       title: "Services:",
-       name: "William Barnes",
-       src: client01,
-       review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-       links: [
-          {
-             id: 1,
-             title: "LMS",
-             href: "/services",
-          },
-       ]
-    },
-    {
-       id: 2,
-       website: "Urbanun",
-       href: "",
-       title: "Services:",
-       name: "Nina Walloch",
-       src: client02,
-       review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-       links: [
-          {
-             id: 1,
-             title: "Real Estate",
-             href: "/services",
-          },
-          
-       ]
-    },
-    {
-       id: 3,
-       website: "UbShop",
-       href: "",
-       title: "Services:",
-       name: "Tormer levy",
-       src: client03,
-       review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-       links: [
-          {
-             id: 1,
-             title: "Ecommerse",
-             href: "/services",
-          },
-          
-       ]
-    },
-    {
-       id: 4,
-       website: "UbSocial",
-       href: "",
-       title: "Services:",
-       name: "Elien Kim",
-       src: client04,
-       review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-       links: [
-          {
-             id: 1,
-             title: "Social",
-             href: "/services",
-          },
-          
-       ]
-    },
-    {
-       id: 5,
-       website: "Hypercare Systems",
-       href: "",
-       title: "Services:",
-       name: "Brendon Goss",
-       src: client05,
-       review: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-       links: [
-          {
-             id: 1,
-             title: "investor deck",
-             href: "/services",
-          },
-          {
-             id: 2,
-             title: "startup pitch",
-             href: "/services",
-          },
-       ]
-    },
-    {
-       id: 6,
-       website: "Officevibe",
-       href: "",
-       title: "Services:",
-       name: "Raff Labri",
-       src: client06,
-       review: "Ochi has an impressive understanding of what’s needed to do an effective presentation. The stakeholders at work said it’s the best most complete PP template they’ve ever seen. Ochi delivered more than I was expecting and we were really surprised with the quality of his work. Will work with Ochi design again for sure!",
-       links: [
-          {
-             id: 1,
-             title: "branded template deck",
-             href: "/services",
-          },
-       ]
-    },
-    {
-       id: 7,
-       website: "Orderlion",
-       href: "",
-       title: "Services:",
-       name: "Stefan Strohmer",
-       src: client07,
-       review: "The result was just amazing! For me, a designer is exceptional when you are so satisfied with the result that you want to look at it the whole day like a kid with a new toy. Ihor and his team delivered exactly that! They are very talented designers who understand the real business problem we are trying to solve and iterate over many drafts to achieve the best possible outcome. We are looking for a long-lasting working relationship!",
-       links: [
-          {
-             id: 1,
-             title: "agency",
-             href: "/services",
-          },
-          {
-             id: 2,
-             title: "investor deck",
-             href: "/services",
-          },
-          {
-             id: 3,
-             title: "product presentation",
-             href: "/services",
-          },
-          {
-             id: 4,
-             title: "review",
-             href: "/services",
-          },
-          {
-             id: 2,
-             title: "sales deck",
-             href: "/services",
-          },
-       ]
-    },
-    {
-       id: 8,
-       website: "Black Book",
-       href: "",
-       title: "Services:",
-       name: "Jacki Smith",
-       src: client08,
-       review: "They nailed what our product was all about. We found their ability to workshop all the angles and take on feedback was great and it shows in the final product. Everything moved with a milestone dynamic brief via Notion which was handy to track progress. We’re very happy with the process and the final product. All was handled well and professionally.",
-       links: [
-          {
-             id: 1,
-             title: "review",
-             href: "/services",
-          },
-          {
-             id: 2,
-             title: "startup pitch",
-             href: "/services",
-          },
-       ]
-    },
-    {
-       id: 9,
-       website: "Trawa Energy",
-       href: "",
-       title: "Services:",
-       name: "David Buddy",
-       src: client09,
-       review: "We were surprised by the accuracy with which Ochi Design nailed the overall design language that perfectly aligned with our personal preferences and the vision that we have for our young company.",
-       links: [
-          {
-             id: 1,
-             title: "branding",
-             href: "/services",
-          },
-          {
-             id: 2,
-             title: "investor deck",
-             href: "/services",
-          },
-          {
-             id: 3,
-             title: "startup pitch",
-             href: "/services",
-          },
-       ]
-    },
- 
- ];
+  {
+    id: 1,
+    website: "Practicemania",
+    href: "prcticecompanions.com",
+    title: "Services:",
+    name: "William Barnes",
+    src: client01,
+    review:
+      "I had the pleasure of working with Sheuli on a custom website project aimed at enhancing English proficiency using React and ChatGPT. From start to finish, the team was professional, responsive, and dedicated to bringing my vision to life. They understood my goals and offered valuable suggestions that improved the user experience. The final product exceeded expectations — the website is intuitive, functional, and the integration of AI features adds real value.",
+    links: [
+      {
+        id: 1,
+        title: "LMS",
+        href: "/services",
+      },
+    ],
+  },
+  {
+    id: 2,
+    website: "Urbanun",
+    href: "",
+    title: "Services:",
+    name: "Nina Walloch",
+    src: client02,
+    review:
+      "Working with Sheuli  on our real estate website was an excellent experience. From the initial consultation to the final launch, they demonstrated exceptional professionalism, creativity, and technical expertise. They took the time to understand our specific needs and created a site that is both visually appealing and highly functional. The integration of advanced search features, property listings, and user-friendly navigation has made it easier for our clients to browse and find properties that meet their needs.",
+    links: [
+      {
+        id: 1,
+        title: "Real Estate",
+        href: "/services",
+      },
+    ],
+  },
+  {
+    id: 3,
+    website: "UbShop",
+    href: "",
+    title: "Services:",
+    name: "Tormer levy",
+    src: client03,
+    review:
+      "I had the pleasure of working with Sheuli on our e-commerce website, and I couldn’t be more satisfied with the results. From day one, the team was professional, attentive, and focused on understanding our unique business needs. They delivered a modern, user-friendly platform with seamless navigation, secure payment integration, and intuitive product management features. The site is not only visually stunning but also highly functional, offering our customers an easy and enjoyable shopping experience.",
+    links: [
+      {
+        id: 1,
+        title: "Ecommerse",
+        href: "/services",
+      },
+    ],
+  },
+  {
+    id: 4,
+    website: "UbSocial",
+    href: "",
+    title: "Services:",
+    name: "Elien Kim",
+    src: client04,
+    review:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    links: [
+      {
+        id: 1,
+        title: "Social",
+        href: "/services",
+      },
+    ],
+  },
+  {
+    id: 5,
+    website: "Hypercare Systems",
+    href: "",
+    title: "Services:",
+    name: "Brendon Goss",
+    src: client05,
+    review:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    links: [
+      {
+        id: 1,
+        title: "investor deck",
+        href: "/services",
+      },
+      {
+        id: 2,
+        title: "startup pitch",
+        href: "/services",
+      },
+    ],
+  },
+  {
+    id: 6,
+    website: "Officevibe",
+    href: "",
+    title: "Services:",
+    name: "Raff Labri",
+    src: client06,
+    review:
+      "Ochi has an impressive understanding of what’s needed to do an effective presentation. The stakeholders at work said it’s the best most complete PP template they’ve ever seen. Ochi delivered more than I was expecting and we were really surprised with the quality of his work. Will work with Ochi design again for sure!",
+    links: [
+      {
+        id: 1,
+        title: "branded template deck",
+        href: "/services",
+      },
+    ],
+  },
+  {
+    id: 7,
+    website: "Orderlion",
+    href: "",
+    title: "Services:",
+    name: "Stefan Strohmer",
+    src: client07,
+    review:
+      "The result was just amazing! For me, a designer is exceptional when you are so satisfied with the result that you want to look at it the whole day like a kid with a new toy. Ihor and his team delivered exactly that! They are very talented designers who understand the real business problem we are trying to solve and iterate over many drafts to achieve the best possible outcome. We are looking for a long-lasting working relationship!",
+    links: [
+      {
+        id: 1,
+        title: "agency",
+        href: "/services",
+      },
+      {
+        id: 2,
+        title: "investor deck",
+        href: "/services",
+      },
+      {
+        id: 3,
+        title: "product presentation",
+        href: "/services",
+      },
+      {
+        id: 4,
+        title: "review",
+        href: "/services",
+      },
+      {
+        id: 2,
+        title: "sales deck",
+        href: "/services",
+      },
+    ],
+  },
+  {
+    id: 8,
+    website: "Black Book",
+    href: "",
+    title: "Services:",
+    name: "Jacki Smith",
+    src: client08,
+    review:
+      "They nailed what our product was all about. We found their ability to workshop all the angles and take on feedback was great and it shows in the final product. Everything moved with a milestone dynamic brief via Notion which was handy to track progress. We’re very happy with the process and the final product. All was handled well and professionally.",
+    links: [
+      {
+        id: 1,
+        title: "review",
+        href: "/services",
+      },
+      {
+        id: 2,
+        title: "startup pitch",
+        href: "/services",
+      },
+    ],
+  },
+  {
+    id: 9,
+    website: "Trawa Energy",
+    href: "",
+    title: "Services:",
+    name: "David Buddy",
+    src: client09,
+    review:
+      "We were surprised by the accuracy with which Ochi Design nailed the overall design language that perfectly aligned with our personal preferences and the vision that we have for our young company.",
+    links: [
+      {
+        id: 1,
+        title: "branding",
+        href: "/services",
+      },
+      {
+        id: 2,
+        title: "investor deck",
+        href: "/services",
+      },
+      {
+        id: 3,
+        title: "startup pitch",
+        href: "/services",
+      },
+    ],
+  },
+];
 
  export const footerItems = [
    {
