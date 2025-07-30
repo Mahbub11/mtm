@@ -82,8 +82,8 @@ export default function Card() {
                 className="text-[20px] sm:text-lg xm:text-lg leading-normal
                  tracking-tighter text-gray-900 text-justify mt-5"
               >
-                We specialize in developing custom web and mobile applications
-                that cater specifically to your business needs. Our tailored
+                I specialize in developing custom web and mobile applications
+                that cater specifically to your business needs. My tailored
                 solutions ensure that every feature is designed to enhance your
                 operations and drive growth, setting you apart from the
                 competition.
@@ -140,7 +140,7 @@ export default function Card() {
                 className="text-[20px] sm:text-lg xm:text-lg leading-normal
                  tracking-tighter text-gray-900 text-justify mt-5"
               >
-                Our design philosophy centers around the user experience. We
+                My design philosophy centers around the user experience. I
                 create intuitive and visually appealing interfaces that engage
                 users and facilitate seamless interactions, ensuring that your
                 applications are not only functional but also enjoyable to use.
@@ -197,10 +197,10 @@ export default function Card() {
                 className="text-[20px] sm:text-lg xm:text-lg leading-normal
                  tracking-tighter text-gray-900 text-justify mt-5"
               >
-                Quality is at the heart of everything we do. With meticulous
-                attention to detail, we deliver robust and reliable software
+                Quality is at the heart of everything I do. With meticulous
+                attention to detail, I deliver robust and reliable software
                 solutions that are thoroughly tested and optimized for
-                performance. Our commitment to excellence ensures that your
+                performance. My commitment to excellence ensures that your
                 projects meet the highest standards.
               </h4>
             </div>
@@ -255,8 +255,8 @@ export default function Card() {
                 className="text-[20px] sm:text-lg xm:text-lg leading-normal
                  tracking-tighter text-gray-900 text-justify mt-5"
               >
-                We believe in fostering strong partnerships through open
-                communication and collaboration. Our agile approach allows us to
+                I believe in fostering strong partnerships through open
+                communication and collaboration. My agile approach allows me to
                 quickly adapt to your changing needs, ensuring that your vision
                 is realized at every stage of the project. Together, we can
                 achieve exceptional results.

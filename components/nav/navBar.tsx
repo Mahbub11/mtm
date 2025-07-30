@@ -7,6 +7,7 @@ import MtIcon from "@/public/SVG/mt-svg";
 import Link from "next/link";
 import ButtonMailto from "../email/mail-to";
 import IconMahbubLogo from "@/public/SVG/mahbub-logo";
+import Button from "../Button";
 
 const navItems = [
   { title: "Case Studies", link: "/case-studies" },
@@ -76,21 +77,20 @@ export default function Navbar() {
 
         <div>
           <h2 className="font-montreal text-gray-700 tracking-wider uppercase">
-           Mahbub Rahim
+            Mahbub Rahim
           </h2>
         </div>
 
         <div>
-          <div className="font-montreal text-gray-800 ">
-            <ButtonMailto
-              label="Contct Me"
-              mailto="mm@gmail.com"
-            ></ButtonMailto>
-            {/* <Link href="/contact-us">
-              <h3 className="z-10 cursor-pointer tracking-tight">Contact ME</h3>
-            </Link> */}
+          <div className="font-montreal text-gray-800 flex items-center justify-center gap-5">
+            <button
+              className="link-flash text-gray-700"
+              onClick={() => window.open("/cv.pdf", "_blank")}
+            >
+              CV
+            </button>
+            <ButtonMailto label="Contct" mailto="mm@gmail.com"></ButtonMailto>
           </div>
-         
         </div>
       </div>
     </motion.nav>
