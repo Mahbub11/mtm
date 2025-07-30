@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@pdf-viewer/react": "^1.8.0",
     "framer-motion": "^11.11.8",
     "gsap": "^3.12.5",
     "lenis": "^1.1.14",

@@ -16,7 +16,8 @@ const carVariants = {
   hidden: { opacity: 0 },
   reveal: { opacity: 1 },
 };
-const infoTextM="I'm a full-stack web developer with 5+ years of experience building 100+ custom websites using Next.js, React, Node.js, Django, and more. I specialize in creating user-focused, high-performance digital experiences—from startups to enterprises. Beyond coding, I focus on design, UX, and storytelling to help brands connect with their audience. Whether you're starting fresh or improving an existing site, I’m here to bring your vision to life."
+const infoTextM =
+  "I'm a full-stack web developer with 5+ years of experience building 100+ custom websites using Next.js, React, Node.js, Django, and more. I specialize in creating user-focused, high-performance digital experiences—from startups to enterprises. Beyond coding, I focus on design, UX, and storytelling to help brands connect with their audience. Whether you're starting fresh or improving an existing site, I’m here to bring your vision to life.";
 const infoTextD =
   "I’m a full-stack web developer with over 5+ years of experience crafting custom websites and working with popular CMS platforms. Specializing in technologies like Next.js, React.js, Node.js, Django, Express, and DevOps, I create dynamic, user-centric digital experiences that deliver results. I’ve had the privilege of building 100+ websites for a wide range of businesses, from small startups to large enterprises. My approach goes beyond just coding—I'm passionate about elevating user experience and creating engaging, intuitive designs that tell a brand’s story and connect with its audience. Whether you're looking to launch a brand-new site or enhance an existing one, I’ll work closely with you to bring your vision to life, ensuring your website meets your goals and stands out in the digital space. Let’s chat about your project—I’m here to help make your website exactly how you envision it. ";
 const texts: string[] = [
@@ -49,9 +50,17 @@ const navItems = [
 const AnimatedText: React.FC = () => {
   const [index, setIndex] = useState<number>(0);
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
-  const [isMobile, setIsMobile] = useState<boolean>(window.innerWidth <= 720);
 
-  const infoMap = splitStringUsingRegex(isMobile ? infoTextM : infoTextD);
+  const [isMobile, setIsMobile] = useState<boolean | null>(null);
+
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth <= 720);
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
+
+
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -60,6 +69,11 @@ const AnimatedText: React.FC = () => {
 
     return () => clearTimeout(timer);
   }, [index]);
+
+    // Don’t render anything until we know screen size
+  if (isMobile === null) return null; // or a loading state
+
+  const infoMap = splitStringUsingRegex(isMobile ? infoTextM : infoTextD);
 
   const handleMouseEnter = (index: number) => {
     setHoveredIndex(index);
