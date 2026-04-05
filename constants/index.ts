@@ -242,7 +242,7 @@ export const projectItem = [
   {
     id: 1,
     website: "Learningpro",
-    href: "prcticecompanions.com",
+    href: "Learningpro.com",
     title: "Services:",
     name: "William Barnes",
     src: client01,
