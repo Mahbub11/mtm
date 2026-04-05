@@ -130,7 +130,7 @@ export const project = [
 export const projectItem = [
     {
        id: 1,
-       title: "Practicemania",
+       title: "PracticeCompanions",
        href: "/case-studies/case-one",
        src: pBannar,
        links: [
@@ -241,13 +241,13 @@ export const projectItem = [
  export const clientsItem = [
   {
     id: 1,
-    website: "Practicemania",
+    website: "Learningpro",
     href: "prcticecompanions.com",
     title: "Services:",
     name: "William Barnes",
     src: client01,
     review:
-      "I had the pleasure of working with Mahbub on a custom website project aimed at enhancing English proficiency using React and ChatGPT. From start to finish, the team was professional, responsive, and dedicated to bringing my vision to life. They understood my goals and offered valuable suggestions that improved the user experience. The final product exceeded expectations — the website is intuitive, functional, and the integration of AI features adds real value.",
+      "I had the pleasure of working with Mahbub on a custom website project aimed at enhancing LMS using React and ChatGPT. From start to finish, the team was professional, responsive, and dedicated to bringing my vision to life. They understood my goals and offered valuable suggestions that improved the user experience. The final product exceeded expectations — the website is intuitive, functional, and the integration of AI features adds real value.",
     links: [
       {
         id: 1,
