@@ -26,7 +26,7 @@ export default function Footer() {
 
         </div>
         <div className="">
-          <h2>@2025</h2>
+          
         </div>
 
         <div className=" ">
